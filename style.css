@@ -216,7 +216,7 @@ html{
 }
 .about p{
     color: #0E2954;
-    padding:10px 90px;
+    padding:10px 50px;
     text-align: justify;
 }
 .footer{
@@ -268,6 +268,7 @@ html{
     }
     .footer{
         flex-direction: column;
+        gap:10px
     }
     .nav-items-1{
         flex-direction: column;
