@@ -28,12 +28,21 @@ html{
     display: inline-block;
     padding:0px 10px;
 }
+.hamburger{
+    display: none;
+}
+.line{
+    background-color: #0E2954;
+    width: 25px;
+    height: 5px;
+    margin-bottom: 5px;
+}
 .content{
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
     align-items: center;
-    width:70%;
+    width:80%;
     min-height:380px;
     background-color: #FFE569;
     margin:50px auto;
@@ -233,10 +242,15 @@ html{
     padding:0px 10px;
 }
 @media (max-width:768px){
+    .topnav{
+        padding:20px 40px;
+    }
     .nav-items{
         display: none;
     }
-    
+    .hamburger{
+        display:block;
+    }
     .food-image img{
         width:200px;
         height: 200px;
