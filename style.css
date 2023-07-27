@@ -214,6 +214,7 @@ html{
     margin-bottom: 20px;
 }
 .about p{
+    font-size:14px;
     color: #0E2954;
     padding:10px 50px;
     text-align: justify;
